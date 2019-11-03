@@ -1,0 +1,134 @@
+body {
+  margin: 60px auto;
+  width: 70%;
+}
+
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+p, ul {
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+
+
+.main-title {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.sub-title {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-variant-caps: small-caps;
+}
+nav ul, footer ul {
+  font-size: 1em;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;    
+}
+nav p {
+  margin-bottom: -15px;
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: 14px;
+}
+.fab {
+  font-size: 20px;
+}
+
+
+/* Recent Documentation */
+ul.posts {
+  margin: 20px auto 40px;
+  font-size: 12px;
+}
+ul.posts li {
+  list-style: none;
+}
+.meta {
+  font-variant-caps: small-caps;
+  margin-top: -15px;
+}
+.indent {
+  margin: 20px;
+}
+
+/* Compositions */
+.main-text-home {
+  font-size: 20px;  
+}
+
+/* CV */
+.cv {
+  margin: 0px 0px 60px;
+}
+.cv h1 {
+  font-size: 3em;
+}
+.cv h2 {
+  font-size: 2em;
+}
+.cv address, .cv .download { 
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
+}
+.cv address, .cv p { 
+  font-size: 1.2em; 
+}
+.cv .download { 
+  float: right; 
+  font-size: .8em; 
+  text-transform: uppercase; 
+}
+
+/* Showcase */
+.jw-card .jw-card-menu-button, .jw-toolbar-nav, .jw-row .pb, .jw-toolbar {
+  display: none;
+}
+.jw-theme-dark .jw-toolbar {
+  background-color: #000000;
+}
+.jw-theme-light .jw-video-layout, .jw-theme-light .jw-side-rail {
+  background-color: #ffffff;
+}
+.jw-theme-light .jw-video-details {
+  background-color: transparent;
+  color: #000000;
+}
+.jw-page-flag-header {
+  padding-top: 10px;
+}

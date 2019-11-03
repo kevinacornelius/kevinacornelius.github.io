@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77709404-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-77709404-1');
+    </script>
+
+    <title>{{ page.title }}</title>
+
+    <meta property="og:title" content="Kevin A. Cornelius, Technical Writer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kevinacornelius.com" />
+    <meta property="og:site_name" content="Kevin A. Cornelius, Technical Writer" />
+    <meta property="og:description" content="Technical Writer" />
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  </head>
+
+
+  <body>
+    <nav>
+      <p class="main-title">Kevin A. Cornelius <a href="https://www.linkedin.com/in/kevinacornelius/" target="_blank"><i class="fab fa-linkedin" style="font-size:25px"></i></a> <a href="https://www.upwork.com/fl/kevinacornelius" target="_blank"><img src="/images/upwork.svg" width="22px"></a></p>
+      <p class="sub-title">Technical Writer</p>
+      <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/writing-samples/">Writing samples</a></li>
+      </ul>
+    </nav>
+    <br/>
+    <div>
+      {{ content }}
+    </div>
+  
+    <footer>
+      <ul>
+        <li>Site handcoded using CSS, HTML, Jekyll, and Ruby<br/>&copy; 2019 Kevin A. Cornelius</li>
+      </ul>
+    </footer>
+  </body>
