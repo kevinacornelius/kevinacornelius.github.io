@@ -19,6 +19,22 @@ title: Kevin A. Cornelius Technical Writer
 
 <script type="text/JavaScript">
   jwplayer("myElement").setup({ 
-    playlist: "https://cdn.jwplayer.com/v2/media/brNhVgQc"
+    playlist: [
+      {
+        file: "https://cdn.jwplayer.com/videos/brNhVgQc-PcOizfWX.mp4",
+        tracks: [
+          {
+            kind: "captions",
+            file: "https://cdn.jwplayer.com/tracks/2GduHPYz",
+            label: "Test caption 1"
+          },   
+          {
+            kind: "captions",
+            file: "https://cdn.jwplayer.com/tracks/2GduHPYz",
+            label: "Test caption 2"
+          },   
+        ]
+      }
+    ]
   });
 </script>
