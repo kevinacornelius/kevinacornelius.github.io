@@ -4,14 +4,8 @@ title: Piano drafts
 ---
 <h1>{{ page.title }}</h1>
 
-<p><strong>12 June 2019 &raquo; Analytics API</strong><br/><a href="https://developer.jwplayer.com/jw-platform/docs/developer-guide/analytics-api/" target="_blank">Overview</a> 
-  | <a href="https://developer.jwplayer.com/jw-platform/docs/developer-guide/analytics-api/run-a-report/" target="_blank">Run a report</a>
-  | <a href="https://developer.jwplayer.com/jw-platform/docs/developer-guide/analytics-api/run-a-report-with-tools/" target="_blank">Run a report with query tools</a>
-  | <a href="https://developer.jwplayer.com/jw-platform/docs/developer-guide/analytics-api/metrics-and-dimensions/" target="_blank">Metrics and dimensions</a>  
-  | <a href="https://developer.jwplayer.com/jw-platform/docs/developer-guide/analytics-api/example-report-queries/" target="_blank">Example report queries</a>
-  | <a href="https://developer.jwplayer.com/jw-platform/docs/developer-guide/analytics-api/api-reference/" target="_blank">Analytics API reference</a><br/></p><img src="https://img.shields.io/badge/%20-API-purple.svg">  
-<img src="https://img.shields.io/badge/%20-developer--guide-blue.svg">
-<p><span class="indent">&bull; Researched and documented all Analytics API properties, metrics, and dimensions</span><br/>
+<p><strong>2020-01-05P &raquo; Analytics API</strong><br/><img src="https://img.shields.io/badge/%20-Idea 1-blue.svg">
+<p><span class="indent">PDF | Audio</span><br/>
   <span class="indent">&bull; Tested and documented query tools</span><br/>
   <span class="indent">&bull; Worked with SMEs to create compelling use cases for example report queries</span></p>
 <br/><br/>
