@@ -4,11 +4,12 @@ title: Piano drafts
 ---
 <h1>{{ page.title }}</h1>
 
-<p><strong>2020-01-05P &raquo; Analytics API</strong><br/><img src="https://img.shields.io/badge/%20-Idea 1-blue.svg">
-<p><span class="indent">PDF | Audio</span><br/>
-  <span class="indent">&bull; Tested and documented query tools</span><br/>
-  <span class="indent">&bull; Worked with SMEs to create compelling use cases for example report queries</span></p>
+<p><strong>2020-01-05</strong><br/><br /><img src="https://img.shields.io/badge/%20-Idea 1-blue.svg">
+<p><span class="indent">PDF | Audio</span></p>
+<br/><br /><img src="https://img.shields.io/badge/%20-Idea 2-purple.svg">
+<p><span class="indent">PDF | Audio</span></p>
 <br/><br/>
+
 <p><strong>14 March 2019 &raquo; Enable casting to Chromecast devices</strong><br/><a href="https://developer.jwplayer.com/sdk/android/docs/developer-guide/chromecast/enable-casting-to-chromecast-devices/" target="_blank">android</a> | <a href="https://developer.jwplayer.com/sdk/ios/docs/developer-guide/casting/chromecast/" target="_blank">ios</a><br/></p>
 <img src="https://img.shields.io/badge/%20-developer--guide-blue.svg"> <img src="https://img.shields.io/badge/SDK-Android-0AAC29.svg?logo=android"> <img src="https://img.shields.io/badge/SDK-iOS-0AAC29.svg?logo=apple">
 <p><span class="indent">&bull; [Android] Added new casting functionality and implementation process</span><br/>
