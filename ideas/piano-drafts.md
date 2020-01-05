@@ -4,31 +4,10 @@ title: Piano drafts
 ---
 <h1>{{ page.title }}</h1>
 
-<p><strong>2020-01-05</strong><br/><br /><img src="https://img.shields.io/badge/%20-Idea 1-blue.svg"><span class="indent">PDF | Audio</span></p>
-<br/><br /><img src="https://img.shields.io/badge/%20-Idea 2-purple.svg"><span class="indent">PDF | Audio</span></p>
+<p><strong>2020-01-05</strong><br/><br /><img src="https://img.shields.io/badge/%20-Piano idea 1 (Revised)-blue.svg"><span class="indent">PDF | Audio</span>
+<br/><img src="https://img.shields.io/badge/%20-Piano Idea 2-purple.svg"><span class="indent">PDF | Audio</span></p>
 <br/><br/>
 
-<p><strong>14 March 2019 &raquo; Enable casting to Chromecast devices</strong><br/><a href="https://developer.jwplayer.com/sdk/android/docs/developer-guide/chromecast/enable-casting-to-chromecast-devices/" target="_blank">android</a> | <a href="https://developer.jwplayer.com/sdk/ios/docs/developer-guide/casting/chromecast/" target="_blank">ios</a><br/></p>
-<img src="https://img.shields.io/badge/%20-developer--guide-blue.svg"> <img src="https://img.shields.io/badge/SDK-Android-0AAC29.svg?logo=android"> <img src="https://img.shields.io/badge/SDK-iOS-0AAC29.svg?logo=apple">
-<p><span class="indent">&bull; [Android] Added new casting functionality and implementation process</span><br/>
-  <span class="indent">&bull; [iOS] Added Swift code samples</span><br/>
-  <span class="indent">&bull; [iOS] Changed the organization of the content</span></p>
-<br/><br/>
-<p><strong>05 February 2019 &raquo; Add an HTML5 player to a site</strong><br/><a href="https://support.jwplayer.com/articles/how-to-embed-a-jwplayer" target="_blank">support version</a> | <a href="https://developer.jwplayer.com/jw-player/docs/developer-guide/getting-started/add-an-html5-player/" target="_blank">develop version</a><br/></p>
-<img src="https://img.shields.io/badge/%20-API-purple.svg">  <img src="https://img.shields.io/badge/%20-developer--guide-blue.svg"> <img src="https://img.shields.io/badge/%20-user--guide-green.svg">
-<p><span class="indent">&bull; Decoupled dashboard end user instructions from developer instructions</span><br/>
-  <span class="indent">&bull; Improved readbility of each article</span><br/>
-  <span class="indent">&bull; Added relevant code samples</span></p>
-<br/><br/>
-<p><strong>01 October 2018 &raquo; Translate player text with automated player localization</strong><br/><a href="https://support.jwplayer.com/articles/translate-video-player-text" target="_blank">support version</a> | <a href="https://developer.jwplayer.com/jw-player/docs/developer-guide/customization/configuration-reference/#internationalization" target="_blank">develop version</a><br/></p>
-<img src="https://img.shields.io/badge/%20-developer--guide-blue.svg"> <img src="https://img.shields.io/badge/%20-JSON-red.svg"> <img src="https://img.shields.io/badge/%20-user--guide-green.svg">
-<p><span class="indent">&bull; Created a new support article describing automated player localization</span><br/>
-  <span class="indent">&bull; Wrote FAQs</span><br/>
-  <span class="indent">&bull; Added new "Internationalization" section that explains the new <code>intl</code> object</span></p>
-<br/><br/>
-<p><strong>Late 2017 - Early 2018 &raquo; REST API updates</strong><br/><a href="https://docs.openx.com/Content/developers/platform_api/package.html" target="_blank">packages</a><br/></p>
-<img src="https://img.shields.io/badge/%20-API-purple.svg"> <img src="https://img.shields.io/badge/%20-developer--guide-blue.svg">
-<p><span class="indent">&bull; Researched and thoroughly documented <code>packages</code> and <code>reports</code> routes</span><br/>
-  <span class="indent">&bull; <a href="/writing-samples/rest-api-revamp.html">Proposed</a> and implemented new content organization</span><br/>
-  <span class="indent">&bull; Implemented three-panel layout</span><br/></p>
+<p><strong>2020-01-04</strong><br/><br /><img src="https://img.shields.io/badge/%20-Piano idea 1-blue.svg"><span class="indent"><a href="2020-PianoMusic-idea1.pdf">PDF</a> | Audio</span>
+<br/><img src="https://img.shields.io/badge/%20-Piano Idea 2-purple.svg"><span class="indent">PDF | Audio</span></p>
 <br/><br/>
