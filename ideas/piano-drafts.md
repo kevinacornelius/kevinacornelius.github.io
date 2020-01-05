@@ -4,10 +4,8 @@ title: Piano drafts
 ---
 <h1>{{ page.title }}</h1>
 
-<p><strong>2020-01-05</strong><br/><br /><img src="https://img.shields.io/badge/%20-Idea 1-blue.svg">
-<p><span class="indent">PDF | Audio</span></p>
-<br/><br /><img src="https://img.shields.io/badge/%20-Idea 2-purple.svg">
-<p><span class="indent">PDF | Audio</span></p>
+<p><strong>2020-01-05</strong><br/><br /><img src="https://img.shields.io/badge/%20-Idea 1-blue.svg"><span class="indent">PDF | Audio</span></p>
+<br/><br /><img src="https://img.shields.io/badge/%20-Idea 2-purple.svg"><span class="indent">PDF | Audio</span></p>
 <br/><br/>
 
 <p><strong>14 March 2019 &raquo; Enable casting to Chromecast devices</strong><br/><a href="https://developer.jwplayer.com/sdk/android/docs/developer-guide/chromecast/enable-casting-to-chromecast-devices/" target="_blank">android</a> | <a href="https://developer.jwplayer.com/sdk/ios/docs/developer-guide/casting/chromecast/" target="_blank">ios</a><br/></p>
