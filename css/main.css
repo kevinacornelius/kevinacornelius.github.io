@@ -117,6 +117,9 @@ footer {
   flex: 25%;
 }
 
+.autumnstroll {
+  background: url('../images/discography-theautumnstroll.jpeg');
+}
 
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
