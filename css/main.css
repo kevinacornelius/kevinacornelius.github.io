@@ -70,6 +70,10 @@ footer {
   font-size: 20px;
 }
 
+.page-header-height {
+  height: 250px;
+}
+
 .overlay {
   background-color: #000;
   position: absolute;
