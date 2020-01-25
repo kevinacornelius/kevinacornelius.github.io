@@ -70,6 +70,44 @@ footer {
   font-size: 20px;
 }
 
+#page-site-header .overlay {
+  opacity: 0.70;
+}
+
+.overlay {
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#page-site-header .page-header {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#page-site-header .page-title {
+  color: #fff;
+  font-size: 42px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+}
+
 /* Discography */
 .row {
   display: flex;
