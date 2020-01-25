@@ -1,6 +1,7 @@
 body {
   margin: 60px auto;
   width: 85%;
+  background: #1a1a1a
 }
 
 
@@ -16,12 +17,13 @@ a:hover {
 p, ul {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-  color: #333;
+  color: #ffffff;
 }
 
 
 h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }
 h1 {
   font-size: 22px;
