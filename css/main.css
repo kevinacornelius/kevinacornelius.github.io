@@ -113,6 +113,12 @@ footer {
 }
 
 /* Latest Album */
+
+.latest-album-content {
+  width: 30px;
+  height: 331px;
+}
+
 .latest-album1-image {
   width: 300px;
   background: url('../images/discography-theautumnstroll.jpeg');
@@ -182,6 +188,12 @@ footer {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 767px){
+  .latest-album article {
+    width: 33.33%;
   }
 }
 
