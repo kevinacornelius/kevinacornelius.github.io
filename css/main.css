@@ -115,7 +115,6 @@ footer {
 /* Latest Album */
 
 .latest-album-content {
-  width: 30px;
   height: 331px;
 }
 
@@ -167,6 +166,10 @@ footer {
 
 .column {
   flex: 25%;
+}
+
+.column3 {
+  flex: 33.3%;
 }
 
 #gumroad {
