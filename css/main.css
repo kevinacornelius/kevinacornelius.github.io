@@ -70,8 +70,8 @@ footer {
   font-size: 20px;
 }
 
-.page-header-height {
-  height: 250px;
+#gumroad {
+  border: none !important;
 }
 
 .overlay {
@@ -84,7 +84,7 @@ footer {
 
 #page-site-header .page-header {
   position: absolute;
-  top: 100px;
+  top: 290px;
   left: 0;
   right: 0;
   text-align: center;
