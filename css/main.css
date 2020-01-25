@@ -44,6 +44,11 @@ h4 {
   font-size: 26px;
   font-weight: 600;
 }
+
+.main-title a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .sub-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
