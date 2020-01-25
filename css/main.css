@@ -14,20 +14,21 @@ a:hover {
 
 
 p, ul {
-  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #333;
 }
 
 
 h1, h2, h3, h4 {
-  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h1 {
   font-size: 22px;
 }
 h2 {
   font-size: 20px;
+  font-family: Monserrat;
 }
 h3 {
   font-size: 18px;
@@ -38,19 +39,19 @@ h4 {
 
 
 .main-title {
-  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   font-weight: 600;
 }
 .sub-title {
-  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-variant-caps: small-caps;
 }
 nav ul, footer ul {
   font-size: 1em;
-  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0px;
   list-style: none;
   font-weight: bold;
@@ -79,6 +80,8 @@ footer {
 .column {
   flex: 25%;
 }
+
+
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
