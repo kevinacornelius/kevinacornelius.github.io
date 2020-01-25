@@ -125,7 +125,31 @@ footer {
   border-top-right-radius: 8px;
 }
 
-.latest-album1-content {
+.latest-album2-image {
+  height: 100px;
+  background: url('../images/discography-theautumnstroll.jpeg');
+  padding: 125px 0;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.latest-album3-image {
+  height: 100px;
+  background: url('../images/discography-theautumnstroll.jpeg');
+  padding: 125px 0;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.latest-album-content {
   padding: 30px;
   height: 331px;
 }
