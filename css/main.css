@@ -72,10 +72,6 @@ footer {
   font-size: 20px;
 }
 
-.gumroad-embed-iframe {
-  border: none !important;
-}
-
 .overlay {
   background-color: #000;
   position: absolute;
@@ -116,6 +112,14 @@ footer {
 
 .column {
   flex: 25%;
+}
+
+#gumroad {
+  padding-top: 70px;
+}
+
+.gumroad-embed-iframe {
+  border: none !important;
 }
 
 .autumnstroll {
