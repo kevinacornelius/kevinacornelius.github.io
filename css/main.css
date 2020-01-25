@@ -28,7 +28,6 @@ h1 {
 }
 h2 {
   font-size: 20px;
-  font-family: Monserrat;
 }
 h3 {
   font-size: 18px;
@@ -47,7 +46,6 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  font-variant-caps: small-caps;
 }
 nav ul, footer ul {
   font-size: 1em;
