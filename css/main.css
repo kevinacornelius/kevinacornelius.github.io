@@ -29,7 +29,8 @@ h1, h2, h3, h4 {
   color: #ffffff;
 }
 h1 {
-  font-size: 28px;
+  font-size: 40px;
+  letter-spacing: 2px;
 }
 h2 {
   font-size: 25px;
@@ -83,7 +84,7 @@ footer {
   background-color: #000;
   position: absolute;
   width: 85%;
-  height: 250px;
+  height: 300px;
   opacity: 0.70;
 }
 
@@ -112,70 +113,13 @@ footer {
   font-weight: 600;
 }
 
-/* Latest Album */
-
-.latest-album-content {
-  height: 331px;
-}
-
-.latest-album1-image {
-  width: 300px;
-  background: url('../images/discography-theautumnstroll.jpeg');
-  padding: 125px 0;
-  background-color: #000;
-  background-size: cover;
-  background-position: 50%;
-  position: relative;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-.latest-album2-image {
-  width: 300px;
-  background: url('../images/discography-theautumnstroll.jpeg');
-  padding: 125px 0;
-  background-color: #000;
-  background-size: cover;
-  background-position: 50%;
-  position: relative;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-.latest-album3-image {
-  width: 300px;
-  background: url('../images/discography-theautumnstroll.jpeg');
-  padding: 125px 0;
-  background-color: #000;
-  background-size: cover;
-  background-position: 50%;
-  position: relative;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-.latest-album-content {
-  padding: 30px;
-  height: 331px;
-}
-
 /* Discography */
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 25%;
-}
 
 img {
   border-radius: 8px;
   padding: 5px;
 }
 
-.column3 {
-  flex: 33.3%;
-}
 
 #gumroad {
   padding-top: 70px;
@@ -186,7 +130,7 @@ img {
 }
 
 .autumnstroll {
-  height: 250px;
+  height: 300px;
   background: url('../images/discography-theautumnstroll.jpeg');
   background-size: cover;
 }
@@ -199,11 +143,6 @@ img {
   }
 }
 
-@media screen and (min-width: 767px){
-  .latest-album article {
-    width: 33.33%;
-  }
-}
 
 /* Recent Documentation */
 ul.posts {
