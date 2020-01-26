@@ -141,7 +141,7 @@ footer {
 
 /* Discography */
 
-img {
+.latest-img {
   border-radius: 30px;
   padding: 5px;
   display: block;
