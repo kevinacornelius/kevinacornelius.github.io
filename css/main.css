@@ -154,6 +154,12 @@ img {
   background-size: cover;
 }
 
+.home {
+  height: 300px;
+  background: url('../images/home-cover.JPG');
+  background-size: cover;
+}
+
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
