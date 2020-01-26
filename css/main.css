@@ -168,6 +168,12 @@ img {
   background-size: cover;
 }
 
+.tribefanfare {
+  height: 300px;
+  background: url('../images/discography-tribe-fanfare.png');
+  background-size: cover;
+}
+
 .home {
   height: 300px;
   background: url('../images/home-cover.JPG');
