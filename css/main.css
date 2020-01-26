@@ -125,11 +125,11 @@ footer {
 }
 
 .left {
-  width: 75%;
+  width: 60%;
 }
 
 .right {
-  width: 25%;
+  width: 40%;
 }
 
 /* Clear floats after the columns */
