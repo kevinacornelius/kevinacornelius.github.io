@@ -29,10 +29,10 @@ h1, h2, h3, h4 {
   color: #ffffff;
 }
 h1 {
-  font-size: 22px;
+  font-size: 28px;
 }
 h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
 h3 {
   font-size: 18px;
@@ -43,7 +43,7 @@ h4 {
 
 .main-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 600;
 }
 
