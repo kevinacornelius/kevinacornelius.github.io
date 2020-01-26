@@ -168,6 +168,11 @@ footer {
   flex: 25%;
 }
 
+img {
+  border-radius: 8px;
+  padding: 5px;
+}
+
 .column3 {
   flex: 33.3%;
 }
