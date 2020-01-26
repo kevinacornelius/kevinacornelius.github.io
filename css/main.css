@@ -186,7 +186,7 @@ img {
 }
 
 .home {
-  height: 300px;
+  height: 200px;
   background: url('../images/home-cover.png');
   background-size: cover;
 }
