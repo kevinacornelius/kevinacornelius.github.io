@@ -65,6 +65,10 @@
         <p class="sub-title">Here is a page that is prepared for a JW Player Live Channels event stream and Spot.IM Real-Time Conversation.</p>
     </nav>
     <br /><br />
+    <a href="#" id="jump-to-conv">
+        <img src="https://img.shields.io/badge/%20-Jump to the Conversation-EC0041.svg?style=for-the-badge" alt="A badge that displays 'Jump to the Conversation'">
+    </a>
+    <br />
     <table style="width:100%">
         <tr>
             <td style="width:40%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Adipiscing elit pellentesque habitant morbi tristique. Dictumst vestibulum rhoncus est pellentesque elit. Augue interdum velit euismod in. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Pharetra et ultrices neque ornare aenean euismod. Risus nullam eget felis eget nunc lobortis mattis aliquam. Lectus nulla at volutpat diam ut. Sociis natoque penatibus et magnis dis parturient montes. Arcu ac tortor dignissim convallis.</td>
@@ -97,7 +101,22 @@
         <img src="https://img.shields.io/badge/%20-Join the Conversation-EC0041.svg?style=for-the-badge" alt="A badge that displays 'Join the Conversation'">
     </a>
     <div id="spot-im-container" style="width: 100%; display: none; padding: 10px 0px;">
+        <script>
+        $(document).ready(function() {
+            $.fn.showSpotimConversation = function() {
+                $("#spot-im-conversation").click(function() {
+                    $("#spot-im-conversation").hide();
+                    $("#spot-im-container").show();
+                    $("#spot-im-container").html('<div data-spotim-module="conversation" data-post-id="this-is-a-test3"></div>');
+                });
+            }
+            $("#jump-to-conv").click(function(){
+                $.fn.showSpotimConversation();
+            });
+        });
+        </script>
     </div>
+    <script async="" src="https://launcher.spot.im/spot/sp_UcvuOt10" data-spotim-module="spotim-launcher" data-spotim-autorun="false" data-post-id="this-is-a-test3"></script>
     
     <br /><br />
     
