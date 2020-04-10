@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Live Channels and Real-Time Conversation test</title>
+    <meta property="og:title" content="Live Channels and Conversation test" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Live Channels and Conversation test" />
+    <meta property="og:description" content="Here is a page that is prepared for a Live Channel event stream and Spot.IM conversation. " />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans">
+    <script src="https://content-portal.jwplatform.com/libraries/VeAzOR4Y.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        body {
+            margin: 60px auto;
+            width: 85%;
+            background: #ffffff
+        }
+        a {
+            text-decoration: none;
+            color: #999;
+        }
+        p, ul, td {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: #111111;
+        }
+        p a {
+            color: #0497ed;
+        }
+        .main-title {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        .sub-title {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+        }
+        nav ul, footer ul {
+          font-size: 1em;
+          font-family: 'Open Sans', sans-serif;
+          padding: 0px;
+          list-style: none;
+          font-weight: bold;
+        }
+        nav ul li, footer ul li {
+          display: inline;
+          margin-right: 20px;    
+        }
+        nav p {
+          margin-bottom: -15px;
+        }
+        footer {
+          border-top: 1px solid #d5d5d5;
+          font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <p class="main-title">Live Channels and Real-Time Conversation test</p>
+        <p class="sub-title">Here is a page that is prepared for a JW Player Live Channels event stream and Spot.IM Real-Time Conversation.</p>
+    </nav>
+    <br /><br />
+    <table style="width:100%">
+        <tr>
+            <td style="width:40%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Adipiscing elit pellentesque habitant morbi tristique. Dictumst vestibulum rhoncus est pellentesque elit. Augue interdum velit euismod in. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Pharetra et ultrices neque ornare aenean euismod. Risus nullam eget felis eget nunc lobortis mattis aliquam. Lectus nulla at volutpat diam ut. Sociis natoque penatibus et magnis dis parturient montes. Arcu ac tortor dignissim convallis.</td>
+            <td style="width: 2%"></td>
+            <td>
+                <div style="position:relative; overflow:hidden; padding-bottom:56.25%"> <iframe src="https://content-portal.jwplatform.com/players/ADzii1gt-VeAzOR4Y.html" width="100%" height="100%" frameborder="0" scrolling="auto" title="Live Channel test" style="position:absolute;" allowfullscreen></iframe> </div>
+            </td>
+        </tr>
+    </table>
+    <p id="subtext">Non arcu risus quis varius quam quisque id diam vel. In aliquam sem fringilla ut morbi tincidunt augue interdum. Nibh cras pulvinar mattis nunc sed. Etiam sit amet nisl purus in mollis nunc. Auctor urna nunc id cursus metus. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare.</p>
+    <br />
+    
+    <script 
+        async
+        src="https://launcher.spot.im/spot/sp_UcvuOt10"
+        data-spotim-module="spotim-launcher"
+        data-spotim-autorun="false">
+    </script>
+    
+    <script>
+        $(document).ready(function() {
+            $("#spot-im-conversation").click(function() {
+                $("#spot-im-conversation").hide();
+                $("#spot-im-container").show();
+                $("#spot-im-container").html('<div data-spotim-module="conversation" data-post-id="this-is-a-test3"></div>');
+            });
+        });
+    </script>
+    <a href="#" id="spot-im-conversation">
+        <img src="https://img.shields.io/badge/%20-Join the Conversation-EC0041.svg?style=for-the-badge" alt="A badge that displays 'Join the Conversation'">
+    </a>
+    <div id="spot-im-container" style="width: 100%; display: none; padding: 10px 0px;">
+    </div>
+    <script async="" src="https://launcher.spot.im/spot/sp_UcvuOt10" data-spotim-module="spotim-launcher" data-spotim-autorun="false" data-post-id="this-is-a-test3"></script>
+    
+    <br /><br />
+    
+    <footer>
+        <ul>
+            <li>&copy; 2020</li>
+        </ul>
+    </footer>
+</body>
