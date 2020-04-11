@@ -64,10 +64,7 @@
         <p class="main-title">Live Channels and Real-Time Conversation test</p>
         <p class="sub-title">Here is a page that is prepared for a JW Player Live Channels event stream and Spot.IM Real-Time Conversation.</p>
     </nav>
-    <br /><br />
-    <a href="#" id="jump-to-conv">
-        <img src="https://img.shields.io/badge/%20-Jump to the Conversation-EC0041.svg?style=for-the-badge" alt="A badge that displays 'Jump to the Conversation'">
-    </a>
+    <br />
     <br />
     <table style="width:100%">
         <tr>
@@ -101,20 +98,6 @@
         <img src="https://img.shields.io/badge/%20-Join the Conversation-EC0041.svg?style=for-the-badge" alt="A badge that displays 'Join the Conversation'">
     </a>
     <div id="spot-im-container" style="width: 100%; display: none; padding: 10px 0px;">
-        <script>
-        $(document).ready(function() {
-            $.fn.showSpotimConversation = function() {
-                $("#spot-im-conversation").click(function() {
-                    $("#spot-im-conversation").hide();
-                    $("#spot-im-container").show();
-                    $("#spot-im-container").html('<div data-spotim-module="conversation" data-post-id="this-is-a-test3"></div>');
-                });
-            }
-            $("#jump-to-conv").click(function(){
-                $.fn.showSpotimConversation();
-            });
-        });
-        </script>
     </div>
     <script async="" src="https://launcher.spot.im/spot/sp_UcvuOt10" data-spotim-module="spotim-launcher" data-spotim-autorun="false" data-post-id="this-is-a-test3"></script>
     
