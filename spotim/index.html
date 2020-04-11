@@ -56,52 +56,119 @@
           border-top: 1px solid #d5d5d5;
           font-size: 14px;
         }
+        .spot-im-replies-count, .spot-im-replies-count a {
+            font-family: 'Montserrat', sans-serif;
+            color: #111111;
+            font-size: 18px;
+        }
     </style>
 </head>
 
 <body>
     <nav>
         <p class="main-title">Live Channels and Real-Time Conversation test</p>
-        <p class="sub-title">Here is a page that is prepared for a JW Player Live Channels event stream and Spot.IM Real-Time Conversation.</p>
+        <p class="sub-title">Here is a page that is prepared for a JW Player Live Channels event stream and Spot.IM Real-Time Conversation with standard message counter.</p>
     </nav>
     <br />
     <br />
+    
+    <!-- "Jump to the Conversation" button -->
+    <a href="#" id="jump-to-conv">
+        <img src="https://img.shields.io/badge/%20-Jump to the Conversation-blue.svg" alt="A badge that displays 'Jump to the Conversation'">
+    </a>
+    
+    <!-- Ipsum lorem text in table -->
     <table style="width:100%">
         <tr>
-            <td style="width:40%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Adipiscing elit pellentesque habitant morbi tristique. Dictumst vestibulum rhoncus est pellentesque elit. Augue interdum velit euismod in. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Pharetra et ultrices neque ornare aenean euismod. Risus nullam eget felis eget nunc lobortis mattis aliquam. Lectus nulla at volutpat diam ut. Sociis natoque penatibus et magnis dis parturient montes. Arcu ac tortor dignissim convallis.</td>
+            <td style="width:40%"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel eros in leo volutpat iaculis non a felis. Proin fermentum ornare ligula, ut aliquam arcu convallis id. Vestibulum vestibulum eros sit amet elementum hendrerit. Nulla sagittis, urna nec cursus consectetur, elit dolor scelerisque sem, tincidunt viverra lacus tortor malesuada leo. Nam tempus egestas est eget sagittis. Integer id tempus turpis, ut tempus quam. Integer non mauris eu urna laoreet gravida at in ligula. Integer efficitur, eros vel pellentesque pellentesque, massa tellus lacinia augue, eu scelerisque neque massa id eros. Phasellus gravida eu libero et pulvinar. Morbi libero elit, tristique a volutpat eu, pretium id nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis bibendum, justo vel viverra bibendum, ex lacus venenatis nisl, eu lobortis tellus diam vel urna.</p></td>
             <td style="width: 2%"></td>
             <td>
+                <!-- JW Player Live Channels embed -->
                 <div style="position:relative; overflow:hidden; padding-bottom:56.25%"> <iframe src="https://content-portal.jwplatform.com/players/ADzii1gt-VeAzOR4Y.html" width="100%" height="100%" frameborder="0" scrolling="auto" title="Live Channel test" style="position:absolute;" allowfullscreen></iframe> </div>
             </td>
         </tr>
     </table>
-    <p id="subtext">Non arcu risus quis varius quam quisque id diam vel. In aliquam sem fringilla ut morbi tincidunt augue interdum. Nibh cras pulvinar mattis nunc sed. Etiam sit amet nisl purus in mollis nunc. Auctor urna nunc id cursus metus. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare.</p>
+    
+    <!-- More Ipsum lorem text to fill page -->
+    <p>Integer nec viverra dolor, non blandit diam. Duis eleifend lorem vel mauris bibendum volutpat. Aliquam sagittis, leo eget sagittis viverra, tellus neque mattis enim, scelerisque elementum dui ex vel diam. Duis eleifend interdum magna, quis porta ante elementum quis. Donec euismod dolor vel massa finibus dapibus. Curabitur vehicula orci nec viverra porttitor. Phasellus dapibus leo id malesuada porttitor. Donec placerat, quam a fringilla venenatis, ipsum nisl faucibus massa, vitae iaculis leo metus sit amet enim. Phasellus volutpat suscipit massa, ut molestie nisl ornare non. Donec urna ligula, egestas at convallis in, posuere quis nulla.</p>
+    <p>Nunc neque ex, malesuada venenatis consequat ac, hendrerit sit amet massa. Vivamus at lectus metus. Duis eleifend venenatis nibh, sit amet dictum est dictum eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus non tincidunt dolor. Nulla vitae quam ut est imperdiet facilisis. Aliquam erat volutpat. Duis vestibulum nisi id lacus aliquam pretium. Integer tortor ligula, lacinia non purus sed, sodales pharetra nibh. Aenean at luctus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Ut ullamcorper volutpat laoreet. Cras luctus mi nec tempor tempus. Aliquam finibus congue erat vel dictum. Mauris tincidunt nisi sed enim gravida, eu volutpat velit egestas. Etiam at nunc cursus, faucibus nulla ut, pretium mauris. Duis ac dui scelerisque, tempus sapien eget, molestie lorem. Mauris fringilla leo orci, eu dapibus augue vulputate ut. Fusce tincidunt magna a turpis pharetra convallis. Sed porta libero vel lectus aliquet congue. Pellentesque bibendum sagittis massa sed scelerisque. Etiam vitae mattis augue. Nam lectus leo, pretium at tincidunt fringilla, auctor eu urna. Vivamus sed tortor sapien. Nunc ultricies cursus magna eget vehicula. Morbi sagittis consectetur ullamcorper.</p>
+    <p>Mauris rutrum, arcu ut lobortis facilisis, neque risus dignissim tellus, sit amet lacinia nisi sem sed sapien. Curabitur mattis, tortor quis mollis efficitur, velit risus finibus ex, eu pretium massa urna non erat. Curabitur eleifend ullamcorper quam sed tristique. Vivamus malesuada vel nunc vulputate sodales. Pellentesque scelerisque erat non eros lacinia, ut dignissim ex semper. Integer hendrerit, orci pellentesque tempus blandit, dolor eros consequat massa, pulvinar venenatis nibh sapien a dui. Sed vehicula dapibus diam vel vulputate. Nullam ac dolor nec nunc eleifend aliquam.</p>
+    <p>Suspendisse laoreet nulla at elementum efficitur. Donec quis magna vitae leo pretium condimentum. Nulla facilisi. Suspendisse auctor justo vel laoreet hendrerit. Aliquam erat volutpat. Aliquam elit odio, scelerisque hendrerit condimentum id, eleifend sed nisl. Pellentesque et metus tristique, pulvinar risus sit amet, ultricies turpis. Ut purus felis, lobortis sed orci sit amet, dignissim vulputate augue. Maecenas ut convallis enim. Etiam tempus mauris ipsum, vel hendrerit ligula gravida vitae.</p>
+    <p>Etiam porttitor condimentum est vitae tempus. Nam maximus iaculis vehicula. Curabitur turpis lorem, rhoncus at sapien et, condimentum molestie mi. Suspendisse egestas fermentum ante in lobortis. Phasellus semper sapien sit amet ex dapibus, ut varius ligula tincidunt. Etiam quis elementum est. Etiam et turpis urna. Vivamus vitae felis interdum, condimentum tortor vitae, varius elit. Donec tortor purus, pretium ut lacus et, suscipit tincidunt felis. Maecenas eleifend augue et porttitor aliquam. Vestibulum nisi mi, tincidunt a ornare a, tincidunt volutpat sapien. Phasellus nisi enim, congue sed nunc nec, consectetur dignissim sem.</p>
+    <p>Ut ornare sit amet augue vel viverra. Nullam ut est eget eros interdum varius. Nulla vel turpis et tortor suscipit maximus. Curabitur ac lectus a tortor dictum accumsan. Sed non fringilla augue, quis tempor metus. Nam aliquet, eros eu lobortis commodo, nisi odio ornare lorem, nec fringilla erat nibh iaculis tortor. Fusce eget quam orci. Sed tempus felis tincidunt neque efficitur eleifend. Sed nec maximus sapien. Cras vel ultrices enim, sed aliquet metus. Vivamus vehicula dui ac dui tincidunt, commodo placerat dolor porta. Pellentesque efficitur ac dui vel efficitur. Integer dapibus nunc est, eu tempor nibh efficitur maximus. Proin dignissim ipsum ac leo ultrices accumsan. Suspendisse nisi turpis, porta et nisl vel, lobortis efficitur ex. Proin nulla diam, porttitor id suscipit pretium, suscipit non nisl.</p>
+    <p>Phasellus libero erat, accumsan eu lorem quis, faucibus congue lacus. Curabitur id urna placerat, molestie tortor at, luctus metus. Donec laoreet, ante quis sagittis faucibus, est elit accumsan risus, quis dapibus dolor tellus accumsan quam. Ut quis mauris et sem varius cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi arcu, hendrerit et libero vel, fringilla sagittis neque. Aenean rhoncus cursus enim eget cursus. Nullam iaculis pharetra sagittis. Nunc aliquam tempus lectus sed tristique. Sed convallis efficitur mauris et lobortis. Cras dapibus vestibulum lacus non tristique. Quisque cursus nisl dolor, sit amet fermentum neque ornare et. Etiam vehicula massa eget risus venenatis vulputate.</p>
     <br />
     
+    <!-- Spot.IM launcher code -->
     <script 
         async
         src="https://launcher.spot.im/spot/sp_UcvuOt10"
+        data-spot-id="sp_UcvuOt10"
         data-spotim-module="spotim-launcher"
         data-spotim-autorun="false">
     </script>
     
+    <!-- Insert Real-Time Conversation in "spot-im-container" <div> at end of article and hide "Join the Conversation" button -->
     <script>
         $(document).ready(function() {
             $("#spot-im-conversation").click(function() {
                 $("#spot-im-conversation").hide();
+                $("#rtc-message-count").hide();
                 $("#spot-im-container").show();
                 $("#spot-im-container").html('<div data-spotim-module="conversation" data-post-id="this-is-a-test3"></div>');
+                
+                 $('html,body').animate(
+                    {
+                        scrollTop: $("#spot-im-container").offset().top
+                    },
+                    'fast');
             });
         });
     </script>
+    
+    <!-- Join the Conversation button at end of article -->
     <a href="#" id="spot-im-conversation">
         <img src="https://img.shields.io/badge/%20-Join the Conversation-EC0041.svg?style=for-the-badge" alt="A badge that displays 'Join the Conversation'">
     </a>
-    <div id="spot-im-container" style="width: 100%; display: none; padding: 10px 0px;">
-    </div>
-    <script async="" src="https://launcher.spot.im/spot/sp_UcvuOt10" data-spotim-module="spotim-launcher" data-spotim-autorun="false" data-post-id="this-is-a-test3"></script>
     
-    <br /><br />
+    <!-- Real-Time Conversation message count -->
+    <table id="rtc-message-count">
+        <tr>
+            <td><div class="spot-im-replies-count" data-post-id="this-is-a-test3" real-time="true"></div></td>
+            <td><p class="spot-im-replies-count">Comments</p></td>
+        </tr>
+    </table>
+    
+    
+    <!-- Spot.IM Real-Time Conversation container -->
+    <div id="spot-im-container" style="width: 100%; display: none; padding: 10px 0px;">
+        
+        
+        <!-- Jump to the Conversation (Go Back to Comments) -->
+        <script>
+            $(document).ready(function() {
+                $.fn.showSpotimConversation = function() {
+                    $("#spot-im-conversation").hide();
+                    $("#rtc-message-count").hide();
+                    $("#spot-im-container").show();
+                    $("#spot-im-container").html('<div data-spotim-module="conversation" data-post-id="this-is-a-test3"></div>');
+                    
+                    $('html,body').animate(
+                    {
+                        scrollTop: $("#spot-im-container").offset().top
+                    },
+                    'fast');
+                }
+                $("#jump-to-conv").click(function(){
+                    $.fn.showSpotimConversation();
+                });
+            });
+        </script>
+    </div>
+
+    <br />
+    <br />
     
     <footer>
         <ul>
