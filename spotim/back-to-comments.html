@@ -1,0 +1,25 @@
+<body>
+    <script>
+      const showConversation = () => {
+        const commentArea = document.querySelector(
+          "div[comments-target-element]"
+        );
+        const conversationElement = document.createElement("div");
+        conversationElement.setAttribute("data-spotim-module", "conversation");
+        conversationElement.setAttribute("data-spot-id", "sp_UcvuOt10");
+        conversationElement.setAttribute("data-post-id", "new-convo");
+        commentArea.appendChild(conversationElement);
+      };
+    </script>
+    <button onClick="showConversation()">Show Conversation</button>
+    <script
+      type="text/javascript"
+      src="https://launcher.spot.im/spot/sp_UcvuOt10"
+      async
+      data-spotim-module="spotim-launcher"
+      data-spot-id="sp_UcvuOt10"
+      data-post-id="new-convo"
+      data-spotim-autorun="false">
+    </script>
+    <div comments-target-element></div>
+  </body>
